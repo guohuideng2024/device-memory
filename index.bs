@@ -72,7 +72,7 @@ The value is calculated by using the actual device memory in MiB then rounding i
 
 An upper bound and a lower bound should be set on the list of values. The range between the upper and the lower bounds should include the majority of device memory values but exclude rare device memory values to mitigate device fingerprinting.
 
-    NOTE: The Implementations may set upper and lower bounds and adjust them dynamically over time. These bounds may even differ on different device types, or across various geographic regions.
+    NOTE: The Implementations may set upper and lower bounds and adjust them dynamically over time. These bounds may even differ on different device types.
 
 If <code>Sec-CH-Device-Memory</code> header field occurs in a message more than once, the last value overrides all previous occurrences.
 
